@@ -79,7 +79,7 @@ class TestArrivalTimeCalculator:
     def test_invalid_miles(self, mock_input, capsys):
         """Test handling of negative miles input"""
         inputs = ["2023-12-25", "11:00 AM", "-500", "500", "70", "n"]
-        expected_messages = ["positive", "valid", "number"]
+        expected_messages = ["positive", "valid", "number", "at least"]
 
         self.print_info(capsys,
                         f"\n{'=' * 50}\n"
@@ -104,7 +104,7 @@ class TestArrivalTimeCalculator:
         """This test should fail to demonstrate error reporting"""
         inputs = ["2019-3-15", "11:00 AM", "500", "70", "n"]
         expected = {
-            "hours": "Hours: 7",  # Wrong! Should be 7
+            "hours": "Hours: 6",  # Wrong! Should be 7
             "arrival_time": "06:08 PM"  # Wrong! Should be 06:08 PM
         }
 
