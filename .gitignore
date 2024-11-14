@@ -1,6 +1,3 @@
 .idea/
 .venv/
-*.mp4
-*.docx
-*.ipynb
-*.pptx
+Course Materials/
