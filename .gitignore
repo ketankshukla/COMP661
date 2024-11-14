@@ -1,2 +1,6 @@
 .idea/
 .venv/
+*.mp4
+*.docx
+*.ipynb
+*.pptx
