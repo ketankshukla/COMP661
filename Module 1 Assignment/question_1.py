@@ -14,15 +14,61 @@ def calculate_arrival(departure_date, departure_time, miles, speed):
     return hours, minutes, arrival.strftime('%Y-%m-%d'), arrival.strftime('%I:%M %p')
 
 
+def get_valid_date():
+    while True:
+        date = input("Estimated date of departure (YYYY-MM-DD): ").strip()
+        try:
+            datetime.strptime(date, "%Y-%m-%d")  # Validate date format
+            return date
+        except ValueError:
+            print("Invalid date format. Please use YYYY-MM-DD.")
+
+
+def get_valid_time():
+    while True:
+        time = input("Estimated time of departure (HH:MM AM/PM): ").strip()
+        try:
+            datetime.strptime(time, "%I:%M %p")  # Validate time format
+            return time
+        except ValueError:
+            print("Invalid time format. Please use HH:MM AM/PM.")
+
+
+def get_valid_miles():
+    while True:
+        miles_input = input("Enter miles: ").strip()
+        try:
+            miles = int(miles_input)
+            if miles < 0:
+                print("Miles cannot be negative. Please enter a positive number.")
+                continue
+            return miles
+        except ValueError:
+            print("Please enter a valid integer for miles.")
+
+
+def get_valid_speed():
+    while True:
+        speed_input = input("Enter miles per hour: ").strip()
+        try:
+            speed = int(speed_input)
+            if speed <= 0:
+                print("Speed must be greater than zero. Please enter a valid speed.")
+                continue
+            return speed
+        except ValueError:
+            print("Please enter a valid integer for speed.")
+
+
 def main():
     print("Arrival Time Estimator")
 
     while True:
-        # Get inputs
-        date = input("Estimated date of departure (YYYY-MM-DD): ").strip()
-        time = input("Estimated time of departure (HH:MM AM/PM): ").strip()
-        miles = int(input("Enter miles: "))
-        speed = int(input("Enter miles per hour: "))
+        # Get inputs with validation
+        date = get_valid_date()
+        time = get_valid_time()
+        miles = get_valid_miles()
+        speed = get_valid_speed()
 
         # Calculate and display results
         hours, minutes, arrival_date, arrival_time = calculate_arrival(date, time, miles, speed)
