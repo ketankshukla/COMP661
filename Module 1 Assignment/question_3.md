@@ -1,22 +1,26 @@
 ## Documentation Guide for Algorithm Performance Measurement Python Code
 
-This documentation provides a comprehensive overview of the Python code designed to measure and compare the execution time of an algorithm across different problem sizes.
+This documentation provides a comprehensive overview of the Python code designed to measure and 
+compare the execution time of an algorithm across different problem sizes.
 
 ### Overview
 
-The program implements a simple algorithm and measures its execution time for increasing problem sizes. It runs multiple iterations to ensure accuracy and provides a tabular output of the results.
+The program implements a simple algorithm and measures its execution time for increasing problem sizes. 
+It runs multiple iterations to ensure accuracy and provides a tabular output of the results.
 
 ### Functions
 
 #### `algorithm(problem_size)`
 
 **Description:**  
-Simulates a computational algorithm with a given problem size. This function performs a loop that increments and decrements a variable, simulating some form of computational work.
+Simulates a computational algorithm with a given problem size. This function performs a loop that increments 
+and decrements a variable, simulating some form of computational work.
 
 **Parameters:**
 - `problem_size` (int): The size of the problem, determining the number of loop iterations.
 
-**Note:** This function is a placeholder and can be replaced with any algorithm whose performance needs to be measured.
+**Note:** This function is a placeholder and can be replaced with any algorithm whose performance needs 
+to be measured.
 
 ---
 
@@ -49,13 +53,11 @@ The main function that orchestrates the performance measurement process. It:
 
 To run this program:
 
-1. Ensure you have Python installed on your machine.
-2. Copy the code into a Python file (e.g., `algorithm_performance.py`).
-3. Execute the script using Python from your command line or terminal:
+1. Execute the script using Python from your command line or terminal:
    ```bash
    python algorithm_performance.py
    ```
-4. Observe the results and choose to run again or exit when prompted.
+2. Observe the results and choose to run again or exit when prompted.
 
 ### Example Output
 
@@ -84,4 +86,6 @@ Press 'x' to exit or any other key to run again:
 
 ### Conclusion
 
-This program serves as a useful tool for measuring and comparing the performance of algorithms across different problem sizes. It can be easily modified to test various algorithms by replacing the contents of the `algorithm` function, making it versatile for different performance analysis scenarios.
+This program serves as a useful tool for measuring and comparing the performance of algorithms 
+across different problem sizes. It can be easily modified to test various algorithms by replacing 
+the contents of the `algorithm` function, making it versatile for different performance analysis scenarios.
