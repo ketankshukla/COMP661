@@ -19,8 +19,8 @@ Displays available commands for user interaction.
 **Contact Listing Function**
 ```python
 def list_contacts(contacts):
-    for i, contact in enumerate(contacts, 1):
-        print(f"{i}. {contact[0]}")
+    for index, contact in enumerate(contacts, 1):
+        print(f"{index}. {contact[0]}")
 ```
 - Uses enumerate to display numbered contacts
 - Shows only contact names
