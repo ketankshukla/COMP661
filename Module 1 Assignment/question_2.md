@@ -1,10 +1,13 @@
 ## Documentation Guide for Birthday Calculator Python Code
 
-This documentation provides a detailed overview of the Python code designed to calculate a person's age and the number of days until their next birthday based on user input.
+This documentation provides a detailed overview of the Python code designed to calculate a person's age 
+and the number of days until their next birthday based on user input.
 
 ### Overview
 
-The program allows users to input their name and birth date, calculates the user's age in years or days, and determines how many days remain until their next birthday. It ensures proper input validation and displays the results in a user-friendly format.
+The program allows users to input their name and birth date, calculates the user's age in years or days, 
+and determines how many days remain until their next birthday. 
+It ensures proper input validation and displays the results in a user-friendly format.
 
 ### Constants
 
@@ -15,7 +18,8 @@ The program allows users to input their name and birth date, calculates the user
 #### `calculate_age(birth_date)`
 
 **Description:**  
-Calculates the age of the user based on their birth date. It returns the age in years if the user is 2 years old or older; otherwise, it returns the age in days.
+Calculates the age of the user based on their birth date. 
+It returns the age in years if the user is 2 years old or older; otherwise, it returns the age in days.
 
 **Parameters:**
 - `birth_date` (datetime): The user's birth date.
@@ -34,7 +38,8 @@ Calculates how many days remain until the user's next birthday.
 - `birth_date` (datetime): The user's birth date.
 
 **Returns:**  
-A string indicating how many days until the next birthday, including special cases for today, tomorrow, and yesterday.
+A string indicating how many days until the next birthday, including special cases for today, 
+tomorrow, and yesterday.
 
 ---
 
@@ -51,7 +56,8 @@ A string representing a valid name.
 #### `get_valid_birth_date()`
 
 **Description:**  
-Prompts the user to input a valid birth date in MM/DD/YY format. It validates the format and checks that the date is not in the future.
+Prompts the user to input a valid birth date in MM/DD/YY format. 
+It validates the format and checks that the date is not in the future.
 
 **Returns:**  
 A `datetime` object representing a valid birth date.
@@ -75,13 +81,11 @@ The main function that manages user interaction. It:
 
 To run this program:
 
-1. Ensure you have Python installed on your machine.
-2. Copy the code into a Python file (e.g., `birthday_calculator.py`).
-3. Execute the script using Python from your command line or terminal:
+1. Execute the script using Python from your command line or terminal:
    ```bash
    python birthday_calculator.py
    ```
-4. Follow the prompts to enter your name and birth date.
+3. Follow the prompts to enter your name and birth date.
 
 ### Example Interaction
 
@@ -107,4 +111,6 @@ Bye!
 
 ### Conclusion
 
-This program serves as an interactive tool for calculating age and determining how many days are left until a birthday. By implementing thorough input validation, it enhances user experience while minimizing errors during data entry.
+This program serves as an interactive tool for calculating age and determining how many days are left
+until a birthday. By implementing thorough input validation, it enhances user experience while minimizing 
+errors during data entry.

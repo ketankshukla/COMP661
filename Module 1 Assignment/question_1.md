@@ -112,4 +112,6 @@ Bye!
 
 ### Conclusion
 
-This program serves as a simple yet effective tool for estimating travel times based on user-defined parameters. By ensuring proper input validation, it enhances user experience and minimizes errors during data entry.
+This program serves as a simple yet effective tool for estimating travel times based on 
+user-defined parameters. By ensuring proper input validation, it enhances user experience 
+and minimizes errors during data entry.
