@@ -1,6 +1,6 @@
 ## Documentation Guide for Arrival Time Estimator Python Code
 
-This documentation provides a comprehensive overview of the Python code designed to estimate the arrival time based on user inputs, including departure date, departure time, distance in miles, and speed in miles per hour.
+This documentation provides a comprehensive overview of the code designed to estimate the arrival time based on user inputs, including departure date, departure time, distance in miles, and speed in miles per hour.
 
 ### Overview
 
@@ -85,13 +85,11 @@ The main function that orchestrates user interaction. It:
 
 To run this program:
 
-1. Ensure you have Python installed on your machine.
-2. Copy the code into a Python file (e.g., `arrival_estimator.py`).
-3. Execute the script using Python from your command line or terminal:
+1. Execute the script using Python from your command line or terminal:
    ```bash
    python arrival_estimator.py
    ```
-4. Follow the prompts to enter your travel details.
+2. Follow the prompts to enter your travel details.
 
 ### Example Interaction
 
