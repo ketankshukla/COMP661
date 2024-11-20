@@ -1,6 +1,7 @@
 ## Contact Manager Program Guide
 
-This Python program implements a command-line contact management system with various functions to handle contact information.
+This Python program implements a command-line contact management system with various functions 
+to handle contact information.
 
 ## Core Functions
 

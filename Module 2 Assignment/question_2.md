@@ -1,6 +1,7 @@
 ## Random Letter Generator and Sorting Guide
 
-This Python program demonstrates various sorting operations on randomly generated letters using list comprehension and built-in sorting functions.
+This Python program demonstrates various sorting operations on randomly generated letters using list 
+comprehension and built-in sorting functions.
 
 ## Code Components
 
