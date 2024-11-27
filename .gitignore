@@ -1,3 +1,4 @@
 .idea/
 .venv/
 Course Materials/
+__pycache__/
