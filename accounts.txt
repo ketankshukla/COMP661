@@ -1,0 +1,5 @@
+100 Mary 34.58
+200 Alison 345.67
+300 Marc 3.00
+400 Zoltar -32.16
+500 Kathleen 24.32
